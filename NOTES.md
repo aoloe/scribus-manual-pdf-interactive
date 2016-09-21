@@ -6,7 +6,7 @@ This manual is being written because many people are asking question about creat
 
 Before helping you to achieve your goals, we would like to warn you that:
 
-- Scribus is a tool aimed at creating PDFs for print. It can do other things of course, but not always in a good way.
+- Scribus is a tool aimed at creating PDFs for print. It can do other things of course, but not always in the most comfortable way.
 - PDF is a file format that has been created for sending your printable jobs to a print shop. That's what it can do best.
 - Many PDF readers do not or only partially let you fill, send, and/or automate PDF forms: it's very likely that people will have issues with your forms.
 - Revisioning and debugging of javascript code in your PDF is painful.
