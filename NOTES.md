@@ -13,6 +13,8 @@ Before helping you to achieve your goals, we would like to warn you that:
 
 Abusing of PDFs as a poor man's application platform is probably a bad idea. But people want to do it and since Scribus does at least partially support the task, we need to document it, as good as we can.
 
+Alternatives are survey tools and online form builders.
+
 ## Date and time
 
 Setting the current date and time in an input field:
