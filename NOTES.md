@@ -15,6 +15,16 @@ Abusing of PDFs as a poor man's application platform is probably a bad idea. But
 
 Alternatives are survey tools and online form builders.
 
+## Alternatives
+
+### Webforms
+
+There are both hosted and self hosted solution:
+
+- https://framaforms.org/ (drupal + webform)
+- google
+- 
+
 ## Date and time
 
 Setting the current date and time in an input field:
