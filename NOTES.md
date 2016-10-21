@@ -23,7 +23,6 @@ There are both hosted and self hosted solution:
 
 - https://framaforms.org/ (drupal + webform)
 - google
-- 
 
 ## Date and time
 
