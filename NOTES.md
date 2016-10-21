@@ -22,6 +22,7 @@ Alternatives are survey tools and online form builders.
 There are both hosted and self hosted solution:
 
 - https://framaforms.org/ (drupal + webform)
+- http://www.formtools.org/
 - google
 
 ## Date and time
