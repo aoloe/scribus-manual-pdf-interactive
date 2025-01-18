@@ -31,6 +31,15 @@ Setting the current date and time in an input field:
 
     this.getField("Time").value = util.printd("mmm dd, yy h:M", new Date());
 
+## Fonts
+
+Jean Ghali, https://bugs.scribus.net/view.php?id=17379 :
+
+PDF Text Fields have specific limitations vs fonts. If not using one of the base 14 fonts defined by PDF specifications, a font used in a PDF Text Field must follow these properties :
+- must not be a Type 1 font
+- must not be an OpenType font with PostScript outlines
+- must be fully embeddable
+Calibri fails the last requirement due to its size. You can change the subsetting behavior of Calibri by going to File > Preferences > Fonts, but changing this behavior can lead to bigger PDF files or unexpected behaviors in PDF Readers.
 ## Links
 
 - [How to enable the debugger in Acrobat Reader](http://blogs.adobe.com/dmcmahon/2011/05/26/reader-how-to-enable-the-javascript-debugger/)
