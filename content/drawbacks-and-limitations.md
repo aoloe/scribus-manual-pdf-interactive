@@ -21,4 +21,5 @@ One further drawback, is that PDF have a fixed layout and filling a form on mobi
 
 ## Known issues
 
-- Text typed in Scribus into a PDF text field will be rendered without line breaks at least in some readers (Firefox, Okular).
+- Text typed in Scribus into a PDF text field will be rendered without line breaks at least in some readers (Firefox, Okular).  
+  You can switch the fields to a _normal_ text frame by switching _PDF Options > Is PDF annotation_ checkbox_ in the context menu.
