@@ -47,8 +47,9 @@ Jean Ghali, https://bugs.scribus.net/view.php?id=17498
 - in PDF <= 1.3, PDF fields are restricted to the 12 PDF standard fonts if exported to PDF <= 1.3.
 - in PDF >= 1.4 TrueType fonts are allowed. They must be embeddable and they will be embedded.
 - The font is applied from the the frame properties. No further formatting on the frame is taken into account for PDF form fields.
-- Firefox and MS Edge indeed do not respect the font defined in the PDF (neither for the PDF 1.3 nor the PDF 1.4 variabt). Adobe Reader does correctly use the selected PDF standard font when filling form exported to PDF 1.3 and switch to the TTF option when form is exported to PDF >= 1.4.
+- Firefox and MS Edge indeed do not respect the font defined in the PDF (neither for the PDF 1.3 nor the PDF 1.4 variant). Adobe Reader does correctly use the selected PDF standard font when filling form exported to PDF 1.3 and switch to the TTF option when form is exported to PDF >= 1.4.
 - In general I'd strongly advise against using PDF forms for forms which have to be filled from the web. Web browsers are pretty limited PDF viewers which do not intend to fully implement PDF specifications. Their primary target is clearly not filling PDF forms. The various PDF form submission modes may also not work properly depending on web browser. In fact I remember some only work properly in Adobe products. To sum up, PDF forms work well only in controlled environments. For filling forms on web browsers, HTML forms is the way to go.
+
 ## Links
 
 - [How to enable the debugger in Acrobat Reader](http://blogs.adobe.com/dmcmahon/2011/05/26/reader-how-to-enable-the-javascript-debugger/)

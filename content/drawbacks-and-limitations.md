@@ -18,3 +18,7 @@ Generally speaking, it's not advised to distribute PDF forms if you're not in a 
 - They do not support most PDF form submission modes (by design, some can probably only work properly in Adobe products).
 
 One further drawback, is that PDF have a fixed layout and filling a form on mobile devices might be challenging.
+
+## Known issues
+
+- Text typed in Scribus into a PDF text field will be rendered without line breaks at least in some readers (Firefox, Okular).
